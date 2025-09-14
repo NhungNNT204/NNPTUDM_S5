@@ -1,2 +1,2 @@
-# NNPTUDM_S5
-CODE NNPTUDM_S5
+# Thông tin sinh viên
+2280602246_Nguyễn Thị Thùy Nhung
