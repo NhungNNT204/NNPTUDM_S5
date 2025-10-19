@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="./main.js"></script>
+    <div>
+        <!-- ID hidden: server will auto-assign id when creating -->
+        <input type="hidden" id="id">
+        <input type="text" id="title" placeholder="Title">
+        <input type="text" id="view" placeholder="Views">
+        <input type="button" id="submit" onclick="SaveData()" value="Save">
+    </div>
+    <div style="display:flex; gap:40px; margin-top:20px;">
+        <div>
+            <h3>Active posts</h3>
+            <table border="1">
+                <thead>
+                    <td>ID</td>
+                    <td>Title</td>
+                    <td>Views</td>
+                    <td>Actions</td>
+                </thead>
+                <tbody id="body">       
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h3>Trash</h3>
+            <table border="1">
+                <thead>
+                    <td>ID</td>
+                    <td>Title</td>
+                    <td>Views</td>
+                    <td>Actions</td>
+                </thead>
+                <tbody id="trash">       
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
